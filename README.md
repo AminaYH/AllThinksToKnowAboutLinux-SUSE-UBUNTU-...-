@@ -1,4 +1,8 @@
-# AllThinksToKnowAboutLinux-SUSE-UBUNTU-...-
+# AllThingsToKnowAboutLinux-SUSE-UBUNTU-...
+🚨 Alert: This repository will contain everything you need to know when starting to use a Linux system.
 
-Alert this repo will contain all things you need to know first starting to use linux system I will start  with Opensuse tumbleweed then  leap
-you will find docs and file that contain advices about first using linux system and master it so u will never worry about switching to linux
+I'll begin with openSUSE Tumbleweed, then move on to Leap.
+You'll find documents and files filled with tips and advice to help you confidently begin using Linux and eventually master it.
+
+Every day, I’ll add a new tip or insight to make your transition to Linux smoother — so you won’t be afraid of switching.
+Over time, you'll start to see Linux not as something difficult, but as a powerful system that puts you in control.
