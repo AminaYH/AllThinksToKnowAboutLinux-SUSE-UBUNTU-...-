@@ -1,0 +1,1 @@
+# AllThinksToKnowAboutLinux-SUSSE-UBUNTU-...-
