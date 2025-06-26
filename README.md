@@ -6,3 +6,7 @@ Ubuntu, Debian, Kali Linux, Fedora, Red Hat, Slax, and Tiny Core Linux.You'll fi
 
 Every day, I’ll add a new tip or insight to make your transition to Linux smoother — so you won’t be afraid of switching.
 Over time, you'll start to see Linux not as something difficult, but as a powerful system that puts you in control.
+
+🤝 Contributions Welcome!
+If you want to contribute — you're very welcome!
+Whether it's a tip, a correction, or a full guide — feel free to open a pull request or issue. Let's make this the go-to place for anyone starting with Linux
