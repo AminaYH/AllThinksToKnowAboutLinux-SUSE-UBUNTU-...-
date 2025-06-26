@@ -49,7 +49,24 @@ However, it's not 100% reliable — it can miss some cases.
 
 So, after large upgrades, it's safer to always do:
 
-bash
-Copier
-Modifier
-sudo reboot
+      sudo reboot
+
+🚨 What happens if you ignore this?
+If you shut down the system right after updates without rebooting:
+
+You may boot into rescue mode (recovery shell).
+
+Some services might fail to start.
+
+You might encounter a minimal openSUSE environment where basic tools are missing.
+
+You’ll need to manually repair or rollback packages.
+
+This is especially common with Tumbleweed, due to its fast-paced updates and rolling nature.
+
+
+✅ Best Practice Summary
+-After installing/updating packages	Use sudo reboot
+-Unsure if reboot needed	Run zypper needs-rebooting
+-Large number of updates	Always reboot as a precaution
+-Avoid rescue mode	Don't shut down immediately after an update
