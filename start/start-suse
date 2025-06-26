@@ -1,0 +1,55 @@
+⚠️ First things first: Always backup your system!
+Before doing anything serious with your SUSE system— package installation,... —make sure to backup your important files or codes. This cannot be stressed enough.
+
+Use:
+
+Git for code or text file versioning
+
+Google Drive, Dropbox, or any cloud storage for documents
+
+External drives or network storage for larger or sensitive data
+
+This is your safety net if anything goes wrong.
+
+🔄 Never shutdown after updating — always reboot via terminal
+One of the most important things to remember when using openSUSE, especially Tumbleweed (a rolling release), is:
+
+⚠️ Never shut down the system immediately after an update. Always use sudo reboot.
+
+Why?
+
+After using zypper install or zypper dup (distribution upgrade), the system will often recommend a reboot.
+
+Shutting down the system without rebooting can corrupt your system, especially if critical packages, services, or kernel updates were applied.
+
+openSUSE Tumbleweed updates very frequently, which increases the risk of this issue.
+
+🧠 Understanding Why This Happens
+There are several technical reasons:
+
+Reboot (not shutdown) finalizes updates:
+
+When you use sudo reboot, the system gracefully restarts all services and processes.
+
+Some update-related operations are written to cache or kept in memory and only applied properly during a clean reboot.
+
+sudo reboot ensures persistence, which means the new kernel and services are fully loaded.
+
+Shutdown skips critical steps:
+
+A regular shutdown can stop the system before all updates are committed properly.
+
+This may leave your system in an inconsistent state, especially if system-critical components like the kernel, systemd, or network services were updated.
+
+zypper needs-rebooting is helpful — but not always accurate:
+
+It tries to tell you if a reboot is required.
+
+However, it's not 100% reliable — it can miss some cases.
+
+So, after large upgrades, it's safer to always do:
+
+bash
+Copier
+Modifier
+sudo reboot
