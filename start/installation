@@ -61,11 +61,11 @@ swap – as we mentioned, used as virtual memory
 That’s it — no C:, D:, E:, or F: drives like in Windows. This is called partitioning.
 
 ⚠️ Installing Linux Alongside Windows
-If you want to dual boot Linux and Windows, that’s a different setup.
+If you want to dual boot Linux and Windows, that’s a bit different setup.
 
 I personally didn’t do dual boot — I use only openSUSE.
 But if you want to keep Windows, you must partition your disk beforehand. Here's a good tutorial that explains the steps and covers UEFI:
-🔗 Dual boot Linux and Windows 11 – IONOS Guide
+🔗 https://www.ionos.fr/digitalguide/serveur/configuration/dual-boot-linux-et-windows-11/
 
 ⚠️ Important: You need to disable BitLocker before installing Linux alongside Windows.
 BitLocker encrypts your disk — so Linux won’t be able to access the drive properly unless it's turned off.
